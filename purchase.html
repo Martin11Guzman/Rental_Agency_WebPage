@@ -1,12 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <title> Your Cart </title>
 
-</body>
+    <head>
+        <title>Concept</title>
+        <meta charset="utf-8">
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+        <!-- CSS Files -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="cart.css">
+        <!-- JS Files -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="js/jquery.tools.min.js"></script>
+        <script src="motion_ocean.js"></script>
+
+
+
+    </head>
+
+    <body>
+
+        </ol>
+        <div id="container">
+            <div id="site_title">
+                <a href="purchase.html">
+                    <img src="logo.png" width="50" height="36">
+                </a>
+            </div>
+
+
+            <table>
+                <div class="page">
+                    <header>
+                        <th>
+                            <center>
+                                <h1><u><b><img src="logo.png"><br><a href="index.html"><h1>Rent a Item From Guz's</h1></b></u></h1></center>
+                        </th>
+                    </header>
+                    <ol>
+                        <tr>
+                            <td>
+                                <li><b>Wheelchair</b>
+                                    </p>
+                                    <input type="number" id="a" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Wheelchair', document.getElementById('a').value)">Add</button>
+                                    <p>Rental Price: $90<br>Replacement Value: $900 </p>
+                                </li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <li><b>Scooter</b>
+                                    </p>
+                                    <input type="number" id="b" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Scooter', document.getElementById('b').value)">Add</button>
+                                    <p>Rental Price: $100<br>Replacement Value: $1000</p>
+                                </li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li><b>Hospital Bed</b>
+                                    </p>
+                                    <input type="number" id="c" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Hospital Bed', document.getElementById('c').value)">Add</button>
+                                    <p>Rental Price: $300<br>Replacement Value: $3000</p>
+                                </li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li><b>Crutches</b>
+                                    </p>
+                                    <input type="number" id="d" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Crutches', document.getElementById('d').value)">Add</button>
+                                    <p>Rental Price: $50<br>Replacement Value: $500 </p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>Surgical Tools</b>
+                                    </p>
+                                    <input type="number" id="e" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Surgical Tools', document.getElementById('e').value)">Add</button>
+                                    <p>Rental Price: $20<br>Replacement Value: $200</p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>Stretcher</b>
+                                    </p>
+                                    <input type="number" id="f" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Stretcher', document.getElementById('f').value)">Add</button>
+                                    <p>Rental Price: $100<br>Replacement Value: $1000</p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>MRI Machine</b>
+                                    </p>
+                                    <input type="number" id="g" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('MRI', document.getElementById('g').value)">Add</button>
+                                    <p>Rental Price: $400<br>Replacement Value: $4000</p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>Leg Braces</b>
+                                    </p>
+                                    <input type="number" id="h" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Leg Braces', document.getElementById('h').value)">Add</button>
+                                    <p>Rental Price: $40<br>Replacement Value: $400</p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>Walking Boot</b>
+                                    </p>
+                                    <input type="number" id="i" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('Walking Boot', document.getElementById('i').value)">Add</button>
+                                    <p>Rental Price: $20<br>Replacement Value: $200</p>
+                                </li>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+
+                                <li><b>X-ray Machine</b>
+                                    </p>
+                                    <input type="number" id="j" placeholder="Input qunatity" min="0" max="10">
+                                    <button type="button" onclick="cashRegister.scan('X-ray Machine', document.getElementById('j').value)">Add</button>
+                                    <p>Rental Price: $500<br>Replacement Value: $5000</p>
+                                </li>
+                            </td>
+                        </tr>
+
+                    </ol>
+                    <tr>
+                        <td>
+                            <hr/>
+                            <button type="button" onclick="showTotal()">Show Total</button> <b><p id="total"></p></b>
+                </div>
+                </td>
+                </tr>
+            </table>
+
+    </body>
+
 </html>
-
 
